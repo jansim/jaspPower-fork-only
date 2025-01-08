@@ -2,6 +2,7 @@ name: Reusable workflow for JASP unit tests
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   unit-tests:
